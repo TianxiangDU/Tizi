@@ -1,0 +1,49 @@
+{
+	"configs": [
+		{
+			"enable": true,
+			"group": "bakacirno",
+			"id": "07655F08E0045BCAE68D809EF0C8630B",
+			"method": "chacha20",
+			"obfs": "tls1.2_ticket_auth",
+			"obfsparam": "bakacirno.com,us1.bakacirno.com,cirno.wang,api.cirno.wang",
+			"password": "cirno_ssr",
+			"protocol": "auth_chain_a",
+			"protocolparam": "",
+			"remarks": "",
+			"remarks_base64": "",
+			"server": "us1.bakacirno.com",
+			"server_port": 443,
+			"checked": true
+		}
+	],
+	"index": 0,
+	"enable": false,
+	"autoLaunch": false,
+	"shareOverLan": false,
+	"localPort": 1080,
+	"ssrPath": "/Users/tianxiangdu/Library/Application Support/electron-ssr/shadowsocksr/shadowsocks",
+	"pacPort": 2333,
+	"sysProxyMode": 2,
+	"serverSubscribes": [],
+	"httpProxyEnable": true,
+	"globalShortcuts": {
+		"toggleWindow": {
+			"key": "",
+			"enable": false
+		},
+		"switchSystemProxy": {
+			"key": "",
+			"enable": false
+		}
+	},
+	"windowShortcuts": {
+		"toggleMenu": {
+			"key": "",
+			"enable": false
+		}
+	},
+	"httpProxyPort": 12333,
+	"autoUpdateSubscribes": true,
+	"subscribeUpdateInterval": 24
+}
